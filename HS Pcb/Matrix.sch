@@ -1,0 +1,2062 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX1
+U 1 1 6110598E
+P 2350 2550
+F 0 "MX1" H 2350 2750 60  0000 C CNN
+F 1 "MX-LED" H 2350 2700 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1U-Hotswap" H 1725 2525 60  0001 C CNN
+F 3 "" H 1725 2525 60  0001 C CNN
+	1    2350 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX2
+U 1 1 611059A3
+P 3050 2550
+F 0 "MX2" H 3050 2750 60  0000 C CNN
+F 1 "MX-LED" H 3050 2700 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1U-Hotswap" H 2425 2525 60  0001 C CNN
+F 3 "" H 2425 2525 60  0001 C CNN
+	1    3050 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D1
+U 1 1 611059EF
+P 2300 2800
+F 0 "D1" V 2346 2732 50  0000 R CNN
+F 1 "1N4148" V 2255 2732 50  0000 R CNN
+F 2 "random-keyboard-parts:D_SOD-123-Pretty" V 2300 2800 50  0001 C CNN
+F 3 "~" V 2300 2800 50  0001 C CNN
+	1    2300 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D2
+U 1 1 611059F5
+P 3000 2800
+F 0 "D2" V 3046 2732 50  0000 R CNN
+F 1 "1N4148" V 2955 2732 50  0000 R CNN
+F 2 "random-keyboard-parts:D_SOD-123-Pretty" V 3000 2800 50  0001 C CNN
+F 3 "~" V 3000 2800 50  0001 C CNN
+	1    3000 2800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3000 2900 2300 2900
+Text HLabel 1600 2900 0    50   Input ~ 0
+ROW0
+Text HLabel 1600 4250 0    50   Input ~ 0
+ROW1
+Text HLabel 2500 1150 2    50   Input ~ 0
+COL0
+Text HLabel 3200 1150 2    50   Input ~ 0
+COL1
+Wire Wire Line
+	2500 1150 2500 2500
+Wire Wire Line
+	3200 1150 3200 2500
+Wire Wire Line
+	2300 2900 1600 2900
+Connection ~ 2300 2900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX3
+U 1 1 611B257A
+P 3750 2550
+F 0 "MX3" H 3750 2750 60  0000 C CNN
+F 1 "MX-LED" H 3750 2700 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1U-Hotswap" H 3125 2525 60  0001 C CNN
+F 3 "" H 3125 2525 60  0001 C CNN
+	1    3750 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX4
+U 1 1 611B2580
+P 4450 2550
+F 0 "MX4" H 4450 2750 60  0000 C CNN
+F 1 "MX-LED" H 4450 2700 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1U-Hotswap" H 3825 2525 60  0001 C CNN
+F 3 "" H 3825 2525 60  0001 C CNN
+	1    4450 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D3
+U 1 1 611B2586
+P 3700 2800
+F 0 "D3" V 3746 2732 50  0000 R CNN
+F 1 "1N4148" V 3655 2732 50  0000 R CNN
+F 2 "random-keyboard-parts:D_SOD-123-Pretty" V 3700 2800 50  0001 C CNN
+F 3 "~" V 3700 2800 50  0001 C CNN
+	1    3700 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D4
+U 1 1 611B258C
+P 4400 2800
+F 0 "D4" V 4446 2732 50  0000 R CNN
+F 1 "1N4148" V 4355 2732 50  0000 R CNN
+F 2 "random-keyboard-parts:D_SOD-123-Pretty" V 4400 2800 50  0001 C CNN
+F 3 "~" V 4400 2800 50  0001 C CNN
+	1    4400 2800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4400 2900 3700 2900
+Wire Wire Line
+	4600 1150 4600 2500
+Wire Wire Line
+	3900 1150 3900 2500
+Wire Wire Line
+	3700 2900 3000 2900
+Connection ~ 3700 2900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX5
+U 1 1 611B39AA
+P 5150 2550
+F 0 "MX5" H 5150 2750 60  0000 C CNN
+F 1 "MX-LED" H 5150 2700 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1U-Hotswap" H 4525 2525 60  0001 C CNN
+F 3 "" H 4525 2525 60  0001 C CNN
+	1    5150 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX6
+U 1 1 611B39B0
+P 5850 2550
+F 0 "MX6" H 5850 2750 60  0000 C CNN
+F 1 "MX-LED" H 5850 2700 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1U-Hotswap" H 5225 2525 60  0001 C CNN
+F 3 "" H 5225 2525 60  0001 C CNN
+	1    5850 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D5
+U 1 1 611B39B6
+P 5100 2800
+F 0 "D5" V 5146 2732 50  0000 R CNN
+F 1 "1N4148" V 5055 2732 50  0000 R CNN
+F 2 "random-keyboard-parts:D_SOD-123-Pretty" V 5100 2800 50  0001 C CNN
+F 3 "~" V 5100 2800 50  0001 C CNN
+	1    5100 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D6
+U 1 1 611B39BC
+P 5800 2800
+F 0 "D6" V 5846 2732 50  0000 R CNN
+F 1 "1N4148" V 5755 2732 50  0000 R CNN
+F 2 "random-keyboard-parts:D_SOD-123-Pretty" V 5800 2800 50  0001 C CNN
+F 3 "~" V 5800 2800 50  0001 C CNN
+	1    5800 2800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5800 2900 5100 2900
+Wire Wire Line
+	6000 1150 6000 2500
+Wire Wire Line
+	5300 1150 5300 2500
+Wire Wire Line
+	5100 2900 4400 2900
+Connection ~ 5100 2900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX7
+U 1 1 611B4A43
+P 6550 2550
+F 0 "MX7" H 6550 2750 60  0000 C CNN
+F 1 "MX-LED" H 6550 2700 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1U-Hotswap" H 5925 2525 60  0001 C CNN
+F 3 "" H 5925 2525 60  0001 C CNN
+	1    6550 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX8
+U 1 1 611B4A49
+P 7250 2550
+F 0 "MX8" H 7250 2750 60  0000 C CNN
+F 1 "MX-LED" H 7250 2700 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1U-Hotswap" H 6625 2525 60  0001 C CNN
+F 3 "" H 6625 2525 60  0001 C CNN
+	1    7250 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D7
+U 1 1 611B4A4F
+P 6500 2800
+F 0 "D7" V 6546 2732 50  0000 R CNN
+F 1 "1N4148" V 6455 2732 50  0000 R CNN
+F 2 "random-keyboard-parts:D_SOD-123-Pretty" V 6500 2800 50  0001 C CNN
+F 3 "~" V 6500 2800 50  0001 C CNN
+	1    6500 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D8
+U 1 1 611B4A55
+P 7200 2800
+F 0 "D8" V 7246 2732 50  0000 R CNN
+F 1 "1N4148" V 7155 2732 50  0000 R CNN
+F 2 "random-keyboard-parts:D_SOD-123-Pretty" V 7200 2800 50  0001 C CNN
+F 3 "~" V 7200 2800 50  0001 C CNN
+	1    7200 2800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7200 2900 6500 2900
+Wire Wire Line
+	7400 1150 7400 2500
+Wire Wire Line
+	6700 1150 6700 2500
+Wire Wire Line
+	6500 2900 5800 2900
+Connection ~ 6500 2900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX9
+U 1 1 611B7259
+P 7950 2550
+F 0 "MX9" H 7950 2750 60  0000 C CNN
+F 1 "MX-LED" H 7950 2700 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1U-Hotswap" H 7325 2525 60  0001 C CNN
+F 3 "" H 7325 2525 60  0001 C CNN
+	1    7950 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX10
+U 1 1 611B725F
+P 8650 2550
+F 0 "MX10" H 8650 2750 60  0000 C CNN
+F 1 "MX-LED" H 8650 2700 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1U-Hotswap" H 8025 2525 60  0001 C CNN
+F 3 "" H 8025 2525 60  0001 C CNN
+	1    8650 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D9
+U 1 1 611B7265
+P 7900 2800
+F 0 "D9" V 7946 2732 50  0000 R CNN
+F 1 "1N4148" V 7855 2732 50  0000 R CNN
+F 2 "random-keyboard-parts:D_SOD-123-Pretty" V 7900 2800 50  0001 C CNN
+F 3 "~" V 7900 2800 50  0001 C CNN
+	1    7900 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D10
+U 1 1 611B726B
+P 8600 2800
+F 0 "D10" V 8646 2732 50  0000 R CNN
+F 1 "1N4148" V 8555 2732 50  0000 R CNN
+F 2 "random-keyboard-parts:D_SOD-123-Pretty" V 8600 2800 50  0001 C CNN
+F 3 "~" V 8600 2800 50  0001 C CNN
+	1    8600 2800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8600 2900 7900 2900
+Wire Wire Line
+	8800 1150 8800 2500
+Wire Wire Line
+	8100 1150 8100 2500
+Wire Wire Line
+	7900 2900 7200 2900
+Connection ~ 7900 2900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX11
+U 1 1 611B8386
+P 9350 2550
+F 0 "MX11" H 9350 2750 60  0000 C CNN
+F 1 "MX-LED" H 9350 2700 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1U-Hotswap" H 8725 2525 60  0001 C CNN
+F 3 "" H 8725 2525 60  0001 C CNN
+	1    9350 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX12
+U 1 1 611B838C
+P 10050 2550
+F 0 "MX12" H 10050 2750 60  0000 C CNN
+F 1 "MX-LED" H 10050 2700 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1U-Hotswap" H 9425 2525 60  0001 C CNN
+F 3 "" H 9425 2525 60  0001 C CNN
+	1    10050 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D11
+U 1 1 611B8392
+P 9300 2800
+F 0 "D11" V 9346 2732 50  0000 R CNN
+F 1 "1N4148" V 9255 2732 50  0000 R CNN
+F 2 "random-keyboard-parts:D_SOD-123-Pretty" V 9300 2800 50  0001 C CNN
+F 3 "~" V 9300 2800 50  0001 C CNN
+	1    9300 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D12
+U 1 1 611B8398
+P 10000 2800
+F 0 "D12" V 10046 2732 50  0000 R CNN
+F 1 "1N4148" V 9955 2732 50  0000 R CNN
+F 2 "random-keyboard-parts:D_SOD-123-Pretty" V 10000 2800 50  0001 C CNN
+F 3 "~" V 10000 2800 50  0001 C CNN
+	1    10000 2800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10000 2900 9300 2900
+Wire Wire Line
+	10200 1150 10200 2500
+Wire Wire Line
+	9500 1150 9500 2500
+Wire Wire Line
+	9300 2900 8600 2900
+Connection ~ 9300 2900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED-FLIPPED MX13
+U 1 1 611B95C0
+P 10750 2550
+F 0 "MX13" H 10750 2750 60  0000 C CNN
+F 1 "MX-LED" H 10750 2700 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1U-Hotswap" H 10125 2525 60  0001 C CNN
+F 3 "" H 10125 2525 60  0001 C CNN
+	1    10750 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D13
+U 1 1 611B95CC
+P 10700 2800
+F 0 "D13" V 10746 2732 50  0000 R CNN
+F 1 "1N4148" V 10655 2732 50  0000 R CNN
+F 2 "random-keyboard-parts:D_SOD-123-Pretty" V 10700 2800 50  0001 C CNN
+F 3 "~" V 10700 2800 50  0001 C CNN
+	1    10700 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D14
+U 1 1 611B95D2
+P 11400 2800
+F 0 "D14" V 11446 2732 50  0000 R CNN
+F 1 "1N4148" V 11355 2732 50  0000 R CNN
+F 2 "random-keyboard-parts:D_SOD-123-Pretty" V 11400 2800 50  0001 C CNN
+F 3 "~" V 11400 2800 50  0001 C CNN
+	1    11400 2800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11400 2900 10700 2900
+Wire Wire Line
+	10900 1150 10900 2500
+Wire Wire Line
+	10700 2900 10000 2900
+Connection ~ 10700 2900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED-FLIPPED MX17
+U 1 1 611D021B
+P 2350 3900
+F 0 "MX17" H 2350 4100 60  0000 C CNN
+F 1 "MX-LED" H 2350 4050 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1.5U-Hotswap" H 1725 3875 60  0001 C CNN
+F 3 "" H 1725 3875 60  0001 C CNN
+	1    2350 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX18
+U 1 1 611D0221
+P 3050 3900
+F 0 "MX18" H 3050 4100 60  0000 C CNN
+F 1 "MX-LED" H 3050 4050 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1U-Hotswap" H 2425 3875 60  0001 C CNN
+F 3 "" H 2425 3875 60  0001 C CNN
+	1    3050 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D16
+U 1 1 611D0227
+P 2300 4150
+F 0 "D16" V 2346 4082 50  0000 R CNN
+F 1 "1N4148" V 2255 4082 50  0000 R CNN
+F 2 "random-keyboard-parts:D_SOD-123-Pretty" V 2300 4150 50  0001 C CNN
+F 3 "~" V 2300 4150 50  0001 C CNN
+	1    2300 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D17
+U 1 1 611D022D
+P 3000 4150
+F 0 "D17" V 3046 4082 50  0000 R CNN
+F 1 "1N4148" V 2955 4082 50  0000 R CNN
+F 2 "random-keyboard-parts:D_SOD-123-Pretty" V 3000 4150 50  0001 C CNN
+F 3 "~" V 3000 4150 50  0001 C CNN
+	1    3000 4150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3000 4250 2300 4250
+Wire Wire Line
+	2500 2500 2500 3850
+Wire Wire Line
+	3200 2500 3200 3850
+Wire Wire Line
+	2300 4250 1600 4250
+Connection ~ 2300 4250
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX19
+U 1 1 611D0238
+P 3750 3900
+F 0 "MX19" H 3750 4100 60  0000 C CNN
+F 1 "MX-LED" H 3750 4050 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1U-Hotswap" H 3125 3875 60  0001 C CNN
+F 3 "" H 3125 3875 60  0001 C CNN
+	1    3750 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX20
+U 1 1 611D023E
+P 4450 3900
+F 0 "MX20" H 4450 4100 60  0000 C CNN
+F 1 "MX-LED" H 4450 4050 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1U-Hotswap" H 3825 3875 60  0001 C CNN
+F 3 "" H 3825 3875 60  0001 C CNN
+	1    4450 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D18
+U 1 1 611D0244
+P 3700 4150
+F 0 "D18" V 3746 4082 50  0000 R CNN
+F 1 "1N4148" V 3655 4082 50  0000 R CNN
+F 2 "random-keyboard-parts:D_SOD-123-Pretty" V 3700 4150 50  0001 C CNN
+F 3 "~" V 3700 4150 50  0001 C CNN
+	1    3700 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D19
+U 1 1 611D024A
+P 4400 4150
+F 0 "D19" V 4446 4082 50  0000 R CNN
+F 1 "1N4148" V 4355 4082 50  0000 R CNN
+F 2 "random-keyboard-parts:D_SOD-123-Pretty" V 4400 4150 50  0001 C CNN
+F 3 "~" V 4400 4150 50  0001 C CNN
+	1    4400 4150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4400 4250 3700 4250
+Wire Wire Line
+	4600 2500 4600 3850
+Wire Wire Line
+	3900 2500 3900 3850
+Wire Wire Line
+	3700 4250 3000 4250
+Connection ~ 3700 4250
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX21
+U 1 1 611D0255
+P 5150 3900
+F 0 "MX21" H 5150 4100 60  0000 C CNN
+F 1 "MX-LED" H 5150 4050 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1U-Hotswap" H 4525 3875 60  0001 C CNN
+F 3 "" H 4525 3875 60  0001 C CNN
+	1    5150 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX22
+U 1 1 611D025B
+P 5850 3900
+F 0 "MX22" H 5850 4100 60  0000 C CNN
+F 1 "MX-LED" H 5850 4050 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1U-Hotswap" H 5225 3875 60  0001 C CNN
+F 3 "" H 5225 3875 60  0001 C CNN
+	1    5850 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D20
+U 1 1 611D0261
+P 5100 4150
+F 0 "D20" V 5146 4082 50  0000 R CNN
+F 1 "1N4148" V 5055 4082 50  0000 R CNN
+F 2 "random-keyboard-parts:D_SOD-123-Pretty" V 5100 4150 50  0001 C CNN
+F 3 "~" V 5100 4150 50  0001 C CNN
+	1    5100 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D21
+U 1 1 611D0267
+P 5800 4150
+F 0 "D21" V 5846 4082 50  0000 R CNN
+F 1 "1N4148" V 5755 4082 50  0000 R CNN
+F 2 "random-keyboard-parts:D_SOD-123-Pretty" V 5800 4150 50  0001 C CNN
+F 3 "~" V 5800 4150 50  0001 C CNN
+	1    5800 4150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5800 4250 5100 4250
+Wire Wire Line
+	6000 2500 6000 3850
+Wire Wire Line
+	5300 2500 5300 3850
+Wire Wire Line
+	5100 4250 4400 4250
+Connection ~ 5100 4250
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX23
+U 1 1 611D0272
+P 6550 3900
+F 0 "MX23" H 6550 4100 60  0000 C CNN
+F 1 "MX-LED" H 6550 4050 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1U-Hotswap" H 5925 3875 60  0001 C CNN
+F 3 "" H 5925 3875 60  0001 C CNN
+	1    6550 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX24
+U 1 1 611D0278
+P 7250 3900
+F 0 "MX24" H 7250 4100 60  0000 C CNN
+F 1 "MX-LED" H 7250 4050 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1U-Hotswap" H 6625 3875 60  0001 C CNN
+F 3 "" H 6625 3875 60  0001 C CNN
+	1    7250 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D22
+U 1 1 611D027E
+P 6500 4150
+F 0 "D22" V 6546 4082 50  0000 R CNN
+F 1 "1N4148" V 6455 4082 50  0000 R CNN
+F 2 "random-keyboard-parts:D_SOD-123-Pretty" V 6500 4150 50  0001 C CNN
+F 3 "~" V 6500 4150 50  0001 C CNN
+	1    6500 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D23
+U 1 1 611D0284
+P 7200 4150
+F 0 "D23" V 7246 4082 50  0000 R CNN
+F 1 "1N4148" V 7155 4082 50  0000 R CNN
+F 2 "random-keyboard-parts:D_SOD-123-Pretty" V 7200 4150 50  0001 C CNN
+F 3 "~" V 7200 4150 50  0001 C CNN
+	1    7200 4150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7200 4250 6500 4250
+Wire Wire Line
+	7400 2500 7400 3850
+Wire Wire Line
+	6700 2500 6700 3850
+Wire Wire Line
+	6500 4250 5800 4250
+Connection ~ 6500 4250
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX25
+U 1 1 611D028F
+P 7950 3900
+F 0 "MX25" H 7950 4100 60  0000 C CNN
+F 1 "MX-LED" H 7950 4050 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1U-Hotswap" H 7325 3875 60  0001 C CNN
+F 3 "" H 7325 3875 60  0001 C CNN
+	1    7950 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX26
+U 1 1 611D0295
+P 8650 3900
+F 0 "MX26" H 8650 4100 60  0000 C CNN
+F 1 "MX-LED" H 8650 4050 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1U-Hotswap" H 8025 3875 60  0001 C CNN
+F 3 "" H 8025 3875 60  0001 C CNN
+	1    8650 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D24
+U 1 1 611D029B
+P 7900 4150
+F 0 "D24" V 7946 4082 50  0000 R CNN
+F 1 "1N4148" V 7855 4082 50  0000 R CNN
+F 2 "random-keyboard-parts:D_SOD-123-Pretty" V 7900 4150 50  0001 C CNN
+F 3 "~" V 7900 4150 50  0001 C CNN
+	1    7900 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D25
+U 1 1 611D02A1
+P 8600 4150
+F 0 "D25" V 8646 4082 50  0000 R CNN
+F 1 "1N4148" V 8555 4082 50  0000 R CNN
+F 2 "random-keyboard-parts:D_SOD-123-Pretty" V 8600 4150 50  0001 C CNN
+F 3 "~" V 8600 4150 50  0001 C CNN
+	1    8600 4150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8600 4250 7900 4250
+Wire Wire Line
+	8800 2500 8800 3850
+Wire Wire Line
+	8100 2500 8100 3850
+Wire Wire Line
+	7900 4250 7200 4250
+Connection ~ 7900 4250
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX27
+U 1 1 611D02AC
+P 9350 3900
+F 0 "MX27" H 9350 4100 60  0000 C CNN
+F 1 "MX-LED" H 9350 4050 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1U-Hotswap" H 8725 3875 60  0001 C CNN
+F 3 "" H 8725 3875 60  0001 C CNN
+	1    9350 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX28
+U 1 1 611D02B2
+P 10050 3900
+F 0 "MX28" H 10050 4100 60  0000 C CNN
+F 1 "MX-LED" H 10050 4050 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1U-Hotswap" H 9425 3875 60  0001 C CNN
+F 3 "" H 9425 3875 60  0001 C CNN
+	1    10050 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D26
+U 1 1 611D02B8
+P 9300 4150
+F 0 "D26" V 9346 4082 50  0000 R CNN
+F 1 "1N4148" V 9255 4082 50  0000 R CNN
+F 2 "random-keyboard-parts:D_SOD-123-Pretty" V 9300 4150 50  0001 C CNN
+F 3 "~" V 9300 4150 50  0001 C CNN
+	1    9300 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D27
+U 1 1 611D02BE
+P 10000 4150
+F 0 "D27" V 10046 4082 50  0000 R CNN
+F 1 "1N4148" V 9955 4082 50  0000 R CNN
+F 2 "random-keyboard-parts:D_SOD-123-Pretty" V 10000 4150 50  0001 C CNN
+F 3 "~" V 10000 4150 50  0001 C CNN
+	1    10000 4150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10000 4250 9300 4250
+Wire Wire Line
+	10200 2500 10200 3850
+Wire Wire Line
+	9500 2500 9500 3850
+Wire Wire Line
+	9300 4250 8600 4250
+Connection ~ 9300 4250
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX29
+U 1 1 611D02C9
+P 10750 3900
+F 0 "MX29" H 10750 4100 60  0000 C CNN
+F 1 "MX-LED" H 10750 4050 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1U-Hotswap" H 10125 3875 60  0001 C CNN
+F 3 "" H 10125 3875 60  0001 C CNN
+	1    10750 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D28
+U 1 1 611D02D5
+P 10700 4150
+F 0 "D28" V 10746 4082 50  0000 R CNN
+F 1 "1N4148" V 10655 4082 50  0000 R CNN
+F 2 "random-keyboard-parts:D_SOD-123-Pretty" V 10700 4150 50  0001 C CNN
+F 3 "~" V 10700 4150 50  0001 C CNN
+	1    10700 4150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10900 2500 10900 3850
+Wire Wire Line
+	10700 4250 10000 4250
+Connection ~ 10700 4250
+$Comp
+L MX_Alps_Hybrid:MX-NoLED-FLIPPED MX31
+U 1 1 611D7DB5
+P 2350 5250
+F 0 "MX31" H 2350 5450 60  0000 C CNN
+F 1 "MX-LED" H 2350 5400 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1.75U-Hotswap" H 1725 5225 60  0001 C CNN
+F 3 "" H 1725 5225 60  0001 C CNN
+	1    2350 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX32
+U 1 1 611D7DBB
+P 3050 5250
+F 0 "MX32" H 3050 5450 60  0000 C CNN
+F 1 "MX-LED" H 3050 5400 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1U-Hotswap" H 2425 5225 60  0001 C CNN
+F 3 "" H 2425 5225 60  0001 C CNN
+	1    3050 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D30
+U 1 1 611D7DC1
+P 2300 5500
+F 0 "D30" V 2346 5432 50  0000 R CNN
+F 1 "1N4148" V 2255 5432 50  0000 R CNN
+F 2 "random-keyboard-parts:D_SOD-123-Pretty" V 2300 5500 50  0001 C CNN
+F 3 "~" V 2300 5500 50  0001 C CNN
+	1    2300 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D31
+U 1 1 611D7DC7
+P 3000 5500
+F 0 "D31" V 3046 5432 50  0000 R CNN
+F 1 "1N4148" V 2955 5432 50  0000 R CNN
+F 2 "random-keyboard-parts:D_SOD-123-Pretty" V 3000 5500 50  0001 C CNN
+F 3 "~" V 3000 5500 50  0001 C CNN
+	1    3000 5500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3000 5600 2300 5600
+Wire Wire Line
+	2500 3850 2500 5200
+Wire Wire Line
+	3200 3850 3200 5200
+Wire Wire Line
+	2300 5600 1600 5600
+Connection ~ 2300 5600
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX33
+U 1 1 611D7DD2
+P 3750 5250
+F 0 "MX33" H 3750 5450 60  0000 C CNN
+F 1 "MX-LED" H 3750 5400 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1U-Hotswap" H 3125 5225 60  0001 C CNN
+F 3 "" H 3125 5225 60  0001 C CNN
+	1    3750 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX34
+U 1 1 611D7DD8
+P 4450 5250
+F 0 "MX34" H 4450 5450 60  0000 C CNN
+F 1 "MX-LED" H 4450 5400 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1U-Hotswap" H 3825 5225 60  0001 C CNN
+F 3 "" H 3825 5225 60  0001 C CNN
+	1    4450 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D32
+U 1 1 611D7DDE
+P 3700 5500
+F 0 "D32" V 3746 5432 50  0000 R CNN
+F 1 "1N4148" V 3655 5432 50  0000 R CNN
+F 2 "random-keyboard-parts:D_SOD-123-Pretty" V 3700 5500 50  0001 C CNN
+F 3 "~" V 3700 5500 50  0001 C CNN
+	1    3700 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D33
+U 1 1 611D7DE4
+P 4400 5500
+F 0 "D33" V 4446 5432 50  0000 R CNN
+F 1 "1N4148" V 4355 5432 50  0000 R CNN
+F 2 "random-keyboard-parts:D_SOD-123-Pretty" V 4400 5500 50  0001 C CNN
+F 3 "~" V 4400 5500 50  0001 C CNN
+	1    4400 5500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4400 5600 3700 5600
+Wire Wire Line
+	4600 3850 4600 5200
+Wire Wire Line
+	3900 3850 3900 5200
+Wire Wire Line
+	3700 5600 3000 5600
+Connection ~ 3700 5600
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX35
+U 1 1 611D7DEF
+P 5150 5250
+F 0 "MX35" H 5150 5450 60  0000 C CNN
+F 1 "MX-LED" H 5150 5400 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1U-Hotswap" H 4525 5225 60  0001 C CNN
+F 3 "" H 4525 5225 60  0001 C CNN
+	1    5150 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX36
+U 1 1 611D7DF5
+P 5850 5250
+F 0 "MX36" H 5850 5450 60  0000 C CNN
+F 1 "MX-LED" H 5850 5400 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1U-Hotswap" H 5225 5225 60  0001 C CNN
+F 3 "" H 5225 5225 60  0001 C CNN
+	1    5850 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D34
+U 1 1 611D7DFB
+P 5100 5500
+F 0 "D34" V 5146 5432 50  0000 R CNN
+F 1 "1N4148" V 5055 5432 50  0000 R CNN
+F 2 "random-keyboard-parts:D_SOD-123-Pretty" V 5100 5500 50  0001 C CNN
+F 3 "~" V 5100 5500 50  0001 C CNN
+	1    5100 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D35
+U 1 1 611D7E01
+P 5800 5500
+F 0 "D35" V 5846 5432 50  0000 R CNN
+F 1 "1N4148" V 5755 5432 50  0000 R CNN
+F 2 "random-keyboard-parts:D_SOD-123-Pretty" V 5800 5500 50  0001 C CNN
+F 3 "~" V 5800 5500 50  0001 C CNN
+	1    5800 5500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5800 5600 5100 5600
+Wire Wire Line
+	6000 3850 6000 5200
+Wire Wire Line
+	5300 3850 5300 5200
+Wire Wire Line
+	5100 5600 4400 5600
+Connection ~ 5100 5600
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX37
+U 1 1 611D7E0C
+P 6550 5250
+F 0 "MX37" H 6550 5450 60  0000 C CNN
+F 1 "MX-LED" H 6550 5400 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1U-Hotswap" H 5925 5225 60  0001 C CNN
+F 3 "" H 5925 5225 60  0001 C CNN
+	1    6550 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX38
+U 1 1 611D7E12
+P 7250 5250
+F 0 "MX38" H 7250 5450 60  0000 C CNN
+F 1 "MX-LED" H 7250 5400 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1U-Hotswap" H 6625 5225 60  0001 C CNN
+F 3 "" H 6625 5225 60  0001 C CNN
+	1    7250 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D36
+U 1 1 611D7E18
+P 6500 5500
+F 0 "D36" V 6546 5432 50  0000 R CNN
+F 1 "1N4148" V 6455 5432 50  0000 R CNN
+F 2 "random-keyboard-parts:D_SOD-123-Pretty" V 6500 5500 50  0001 C CNN
+F 3 "~" V 6500 5500 50  0001 C CNN
+	1    6500 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D37
+U 1 1 611D7E1E
+P 7200 5500
+F 0 "D37" V 7246 5432 50  0000 R CNN
+F 1 "1N4148" V 7155 5432 50  0000 R CNN
+F 2 "random-keyboard-parts:D_SOD-123-Pretty" V 7200 5500 50  0001 C CNN
+F 3 "~" V 7200 5500 50  0001 C CNN
+	1    7200 5500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7200 5600 6500 5600
+Wire Wire Line
+	7400 3850 7400 5200
+Wire Wire Line
+	6700 3850 6700 5200
+Wire Wire Line
+	6500 5600 5800 5600
+Connection ~ 6500 5600
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX39
+U 1 1 611D7E29
+P 7950 5250
+F 0 "MX39" H 7950 5450 60  0000 C CNN
+F 1 "MX-LED" H 7950 5400 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1U-Hotswap" H 7325 5225 60  0001 C CNN
+F 3 "" H 7325 5225 60  0001 C CNN
+	1    7950 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX40
+U 1 1 611D7E2F
+P 8650 5250
+F 0 "MX40" H 8650 5450 60  0000 C CNN
+F 1 "MX-LED" H 8650 5400 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1U-Hotswap" H 8025 5225 60  0001 C CNN
+F 3 "" H 8025 5225 60  0001 C CNN
+	1    8650 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D38
+U 1 1 611D7E35
+P 7900 5500
+F 0 "D38" V 7946 5432 50  0000 R CNN
+F 1 "1N4148" V 7855 5432 50  0000 R CNN
+F 2 "random-keyboard-parts:D_SOD-123-Pretty" V 7900 5500 50  0001 C CNN
+F 3 "~" V 7900 5500 50  0001 C CNN
+	1    7900 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D39
+U 1 1 611D7E3B
+P 8600 5500
+F 0 "D39" V 8646 5432 50  0000 R CNN
+F 1 "1N4148" V 8555 5432 50  0000 R CNN
+F 2 "random-keyboard-parts:D_SOD-123-Pretty" V 8600 5500 50  0001 C CNN
+F 3 "~" V 8600 5500 50  0001 C CNN
+	1    8600 5500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8600 5600 7900 5600
+Wire Wire Line
+	8800 3850 8800 5200
+Wire Wire Line
+	8100 3850 8100 5200
+Wire Wire Line
+	7900 5600 7200 5600
+Connection ~ 7900 5600
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX41
+U 1 1 611D7E46
+P 9350 5250
+F 0 "MX41" H 9350 5450 60  0000 C CNN
+F 1 "MX-LED" H 9350 5400 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1U-Hotswap" H 8725 5225 60  0001 C CNN
+F 3 "" H 8725 5225 60  0001 C CNN
+	1    9350 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX42
+U 1 1 611D7E4C
+P 10050 5250
+F 0 "MX42" H 10050 5450 60  0000 C CNN
+F 1 "MX-LED" H 10050 5400 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1U-Hotswap" H 9425 5225 60  0001 C CNN
+F 3 "" H 9425 5225 60  0001 C CNN
+	1    10050 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D40
+U 1 1 611D7E52
+P 9300 5500
+F 0 "D40" V 9346 5432 50  0000 R CNN
+F 1 "1N4148" V 9255 5432 50  0000 R CNN
+F 2 "random-keyboard-parts:D_SOD-123-Pretty" V 9300 5500 50  0001 C CNN
+F 3 "~" V 9300 5500 50  0001 C CNN
+	1    9300 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D41
+U 1 1 611D7E58
+P 10000 5500
+F 0 "D41" V 10046 5432 50  0000 R CNN
+F 1 "1N4148" V 9955 5432 50  0000 R CNN
+F 2 "random-keyboard-parts:D_SOD-123-Pretty" V 10000 5500 50  0001 C CNN
+F 3 "~" V 10000 5500 50  0001 C CNN
+	1    10000 5500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10000 5600 9300 5600
+Wire Wire Line
+	10200 3850 10200 5200
+Wire Wire Line
+	9500 3850 9500 5200
+Wire Wire Line
+	9300 5600 8600 5600
+Connection ~ 9300 5600
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX43
+U 1 1 611D7E69
+P 11450 5250
+F 0 "MX43" H 11450 5450 60  0000 C CNN
+F 1 "MX-LED" H 11450 5400 20  0000 C CNN
+F 2 "MX_HS:MXOnly-2.25U-Hotswap-ReversedStabilizers" H 10825 5225 60  0001 C CNN
+F 3 "" H 10825 5225 60  0001 C CNN
+	1    11450 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D42
+U 1 1 611D7E75
+P 11400 5500
+F 0 "D42" V 11446 5432 50  0000 R CNN
+F 1 "1N4148" V 11355 5432 50  0000 R CNN
+F 2 "random-keyboard-parts:D_SOD-123-Pretty" V 11400 5500 50  0001 C CNN
+F 3 "~" V 11400 5500 50  0001 C CNN
+	1    11400 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX45
+U 1 1 611E0D29
+P 2350 6600
+F 0 "MX45" H 2350 6800 60  0000 C CNN
+F 1 "MX-LED" H 2350 6750 20  0000 C CNN
+F 2 "MX_HS:MXOnly-2.25U-Hotswap" H 1725 6575 60  0001 C CNN
+F 3 "" H 1725 6575 60  0001 C CNN
+	1    2350 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D43
+U 1 1 611E0D35
+P 2300 6850
+F 0 "D43" V 2346 6782 50  0000 R CNN
+F 1 "1N4148" V 2255 6782 50  0000 R CNN
+F 2 "random-keyboard-parts:D_SOD-123-Pretty" V 2300 6850 50  0001 C CNN
+F 3 "~" V 2300 6850 50  0001 C CNN
+	1    2300 6850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2300 6950 1600 6950
+Connection ~ 2300 6950
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX46
+U 1 1 611E0D46
+P 3750 6600
+F 0 "MX46" H 3750 6800 60  0000 C CNN
+F 1 "MX-LED" H 3750 6750 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1U-Hotswap" H 3125 6575 60  0001 C CNN
+F 3 "" H 3125 6575 60  0001 C CNN
+	1    3750 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX47
+U 1 1 611E0D4C
+P 4450 6600
+F 0 "MX47" H 4450 6800 60  0000 C CNN
+F 1 "MX-LED" H 4450 6750 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1U-Hotswap" H 3825 6575 60  0001 C CNN
+F 3 "" H 3825 6575 60  0001 C CNN
+	1    4450 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D44
+U 1 1 611E0D52
+P 3700 6850
+F 0 "D44" V 3746 6782 50  0000 R CNN
+F 1 "1N4148" V 3655 6782 50  0000 R CNN
+F 2 "random-keyboard-parts:D_SOD-123-Pretty" V 3700 6850 50  0001 C CNN
+F 3 "~" V 3700 6850 50  0001 C CNN
+	1    3700 6850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D45
+U 1 1 611E0D58
+P 4400 6850
+F 0 "D45" V 4446 6782 50  0000 R CNN
+F 1 "1N4148" V 4355 6782 50  0000 R CNN
+F 2 "random-keyboard-parts:D_SOD-123-Pretty" V 4400 6850 50  0001 C CNN
+F 3 "~" V 4400 6850 50  0001 C CNN
+	1    4400 6850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4400 6950 3700 6950
+Wire Wire Line
+	4600 5200 4600 6550
+Wire Wire Line
+	3900 5200 3900 6550
+Connection ~ 3700 6950
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX48
+U 1 1 611E0D63
+P 5150 6600
+F 0 "MX48" H 5150 6800 60  0000 C CNN
+F 1 "MX-LED" H 5150 6750 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1U-Hotswap" H 4525 6575 60  0001 C CNN
+F 3 "" H 4525 6575 60  0001 C CNN
+	1    5150 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX49
+U 1 1 611E0D69
+P 5850 6600
+F 0 "MX49" H 5850 6800 60  0000 C CNN
+F 1 "MX-LED" H 5850 6750 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1U-Hotswap" H 5225 6575 60  0001 C CNN
+F 3 "" H 5225 6575 60  0001 C CNN
+	1    5850 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D46
+U 1 1 611E0D6F
+P 5100 6850
+F 0 "D46" V 5146 6782 50  0000 R CNN
+F 1 "1N4148" V 5055 6782 50  0000 R CNN
+F 2 "random-keyboard-parts:D_SOD-123-Pretty" V 5100 6850 50  0001 C CNN
+F 3 "~" V 5100 6850 50  0001 C CNN
+	1    5100 6850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D47
+U 1 1 611E0D75
+P 5800 6850
+F 0 "D47" V 5846 6782 50  0000 R CNN
+F 1 "1N4148" V 5755 6782 50  0000 R CNN
+F 2 "random-keyboard-parts:D_SOD-123-Pretty" V 5800 6850 50  0001 C CNN
+F 3 "~" V 5800 6850 50  0001 C CNN
+	1    5800 6850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5800 6950 5100 6950
+Wire Wire Line
+	6000 5200 6000 6550
+Wire Wire Line
+	5300 5200 5300 6550
+Wire Wire Line
+	5100 6950 4400 6950
+Connection ~ 5100 6950
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX50
+U 1 1 611E0D80
+P 6550 6600
+F 0 "MX50" H 6550 6800 60  0000 C CNN
+F 1 "MX-LED" H 6550 6750 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1U-Hotswap" H 5925 6575 60  0001 C CNN
+F 3 "" H 5925 6575 60  0001 C CNN
+	1    6550 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX51
+U 1 1 611E0D86
+P 7250 6600
+F 0 "MX51" H 7250 6800 60  0000 C CNN
+F 1 "MX-LED" H 7250 6750 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1U-Hotswap" H 6625 6575 60  0001 C CNN
+F 3 "" H 6625 6575 60  0001 C CNN
+	1    7250 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D48
+U 1 1 611E0D8C
+P 6500 6850
+F 0 "D48" V 6546 6782 50  0000 R CNN
+F 1 "1N4148" V 6455 6782 50  0000 R CNN
+F 2 "random-keyboard-parts:D_SOD-123-Pretty" V 6500 6850 50  0001 C CNN
+F 3 "~" V 6500 6850 50  0001 C CNN
+	1    6500 6850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D49
+U 1 1 611E0D92
+P 7200 6850
+F 0 "D49" V 7246 6782 50  0000 R CNN
+F 1 "1N4148" V 7155 6782 50  0000 R CNN
+F 2 "random-keyboard-parts:D_SOD-123-Pretty" V 7200 6850 50  0001 C CNN
+F 3 "~" V 7200 6850 50  0001 C CNN
+	1    7200 6850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7200 6950 6500 6950
+Wire Wire Line
+	7400 5200 7400 6550
+Wire Wire Line
+	6500 6950 5800 6950
+Connection ~ 6500 6950
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX52
+U 1 1 611E0D9D
+P 7950 6600
+F 0 "MX52" H 7950 6800 60  0000 C CNN
+F 1 "MX-LED" H 7950 6750 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1U-Hotswap" H 7325 6575 60  0001 C CNN
+F 3 "" H 7325 6575 60  0001 C CNN
+	1    7950 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX53
+U 1 1 611E0DA3
+P 8650 6600
+F 0 "MX53" H 8650 6800 60  0000 C CNN
+F 1 "MX-LED" H 8650 6750 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1U-Hotswap" H 8025 6575 60  0001 C CNN
+F 3 "" H 8025 6575 60  0001 C CNN
+	1    8650 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D50
+U 1 1 611E0DA9
+P 7900 6850
+F 0 "D50" V 7946 6782 50  0000 R CNN
+F 1 "1N4148" V 7855 6782 50  0000 R CNN
+F 2 "random-keyboard-parts:D_SOD-123-Pretty" V 7900 6850 50  0001 C CNN
+F 3 "~" V 7900 6850 50  0001 C CNN
+	1    7900 6850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D51
+U 1 1 611E0DAF
+P 8600 6850
+F 0 "D51" V 8646 6782 50  0000 R CNN
+F 1 "1N4148" V 8555 6782 50  0000 R CNN
+F 2 "random-keyboard-parts:D_SOD-123-Pretty" V 8600 6850 50  0001 C CNN
+F 3 "~" V 8600 6850 50  0001 C CNN
+	1    8600 6850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8600 6950 7900 6950
+Wire Wire Line
+	8800 5200 8800 6550
+Wire Wire Line
+	8100 5200 8100 6550
+Wire Wire Line
+	7900 6950 7200 6950
+Connection ~ 7900 6950
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX54
+U 1 1 611E0DBA
+P 9350 6600
+F 0 "MX54" H 9350 6800 60  0000 C CNN
+F 1 "MX-LED" H 9350 6750 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1U-Hotswap" H 8725 6575 60  0001 C CNN
+F 3 "" H 8725 6575 60  0001 C CNN
+	1    9350 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX55
+U 1 1 611E0DC0
+P 10050 6600
+F 0 "MX55" H 10050 6800 60  0000 C CNN
+F 1 "MX-LED" H 10050 6750 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1U-Hotswap" H 9425 6575 60  0001 C CNN
+F 3 "" H 9425 6575 60  0001 C CNN
+	1    10050 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D52
+U 1 1 611E0DC6
+P 9300 6850
+F 0 "D52" V 9346 6782 50  0000 R CNN
+F 1 "1N4148" V 9255 6782 50  0000 R CNN
+F 2 "random-keyboard-parts:D_SOD-123-Pretty" V 9300 6850 50  0001 C CNN
+F 3 "~" V 9300 6850 50  0001 C CNN
+	1    9300 6850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D53
+U 1 1 611E0DCC
+P 10000 6850
+F 0 "D53" V 10046 6782 50  0000 R CNN
+F 1 "1N4148" V 9955 6782 50  0000 R CNN
+F 2 "random-keyboard-parts:D_SOD-123-Pretty" V 10000 6850 50  0001 C CNN
+F 3 "~" V 10000 6850 50  0001 C CNN
+	1    10000 6850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10000 6950 9300 6950
+Wire Wire Line
+	9300 6950 8600 6950
+Connection ~ 9300 6950
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX59
+U 1 1 611EC19F
+P 2350 7950
+F 0 "MX59" H 2350 8150 60  0000 C CNN
+F 1 "MX-LED" H 2350 8100 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1.25U-Hotswap" H 1725 7925 60  0001 C CNN
+F 3 "" H 1725 7925 60  0001 C CNN
+	1    2350 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX60
+U 1 1 611EC1A5
+P 3050 7950
+F 0 "MX60" H 3050 8150 60  0000 C CNN
+F 1 "MX-LED" H 3050 8100 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1.25U-Hotswap" H 2425 7925 60  0001 C CNN
+F 3 "" H 2425 7925 60  0001 C CNN
+	1    3050 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D56
+U 1 1 611EC1AB
+P 2300 8200
+F 0 "D56" V 2346 8132 50  0000 R CNN
+F 1 "1N4148" V 2255 8132 50  0000 R CNN
+F 2 "random-keyboard-parts:D_SOD-123-Pretty" V 2300 8200 50  0001 C CNN
+F 3 "~" V 2300 8200 50  0001 C CNN
+	1    2300 8200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D57
+U 1 1 611EC1B1
+P 3000 8200
+F 0 "D57" V 3046 8132 50  0000 R CNN
+F 1 "1N4148" V 2955 8132 50  0000 R CNN
+F 2 "random-keyboard-parts:D_SOD-123-Pretty" V 3000 8200 50  0001 C CNN
+F 3 "~" V 3000 8200 50  0001 C CNN
+	1    3000 8200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3000 8300 2300 8300
+Wire Wire Line
+	2500 6550 2500 7900
+Wire Wire Line
+	2300 8300 1600 8300
+Connection ~ 2300 8300
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX61
+U 1 1 611EC1BC
+P 3750 7950
+F 0 "MX61" H 3750 8150 60  0000 C CNN
+F 1 "MX-LED" H 3750 8100 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1.25U-Hotswap" H 3125 7925 60  0001 C CNN
+F 3 "" H 3125 7925 60  0001 C CNN
+	1    3750 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D58
+U 1 1 611EC1C8
+P 3700 8200
+F 0 "D58" V 3746 8132 50  0000 R CNN
+F 1 "1N4148" V 3655 8132 50  0000 R CNN
+F 2 "random-keyboard-parts:D_SOD-123-Pretty" V 3700 8200 50  0001 C CNN
+F 3 "~" V 3700 8200 50  0001 C CNN
+	1    3700 8200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3900 6550 3900 7900
+Connection ~ 2500 2500
+Connection ~ 2500 3850
+Connection ~ 2500 5200
+Connection ~ 2500 6550
+Connection ~ 3000 2900
+Connection ~ 3000 4250
+Connection ~ 3000 5600
+Connection ~ 3000 8300
+Connection ~ 3200 2500
+Connection ~ 3200 3850
+Connection ~ 3200 5200
+Connection ~ 3900 2500
+Connection ~ 3900 3850
+Connection ~ 3900 5200
+Connection ~ 3900 6550
+Connection ~ 4400 2900
+Connection ~ 4400 4250
+Connection ~ 4400 5600
+Connection ~ 4400 6950
+Connection ~ 4600 2500
+Connection ~ 4600 3850
+Connection ~ 4600 5200
+Connection ~ 5300 2500
+Connection ~ 5300 3850
+Connection ~ 5300 5200
+Connection ~ 5800 2900
+Connection ~ 5800 4250
+Connection ~ 5800 5600
+Connection ~ 5800 6950
+Connection ~ 6000 2500
+Connection ~ 6000 3850
+Connection ~ 6000 5200
+Connection ~ 6700 2500
+Connection ~ 6700 3850
+Connection ~ 6700 5200
+Connection ~ 7200 2900
+Connection ~ 7200 4250
+Connection ~ 7200 5600
+Connection ~ 7200 6950
+Connection ~ 7400 2500
+Connection ~ 7400 3850
+Connection ~ 7400 5200
+Connection ~ 8100 2500
+Connection ~ 8100 3850
+Connection ~ 8100 5200
+Connection ~ 8600 2900
+Connection ~ 8600 4250
+Connection ~ 8600 5600
+Connection ~ 8600 6950
+Connection ~ 8800 2500
+Connection ~ 8800 3850
+Connection ~ 8800 5200
+Connection ~ 9500 2500
+Connection ~ 9500 3850
+Connection ~ 9500 5200
+Connection ~ 10000 2900
+Connection ~ 10000 4250
+Connection ~ 10000 5600
+Connection ~ 10200 2500
+Connection ~ 10200 3850
+Connection ~ 10200 5200
+Connection ~ 10900 2500
+Text HLabel 1600 5600 0    50   Input ~ 0
+ROW2
+Text HLabel 1600 6950 0    50   Input ~ 0
+ROW3
+Text HLabel 1600 8300 0    50   Input ~ 0
+ROW4
+Text HLabel 3900 1150 2    50   Input ~ 0
+COL2
+Text HLabel 4600 1150 2    50   Input ~ 0
+COL3
+Text HLabel 5300 1150 2    50   Input ~ 0
+COL4
+Text HLabel 6000 1150 2    50   Input ~ 0
+COL5
+Text HLabel 6700 1150 2    50   Input ~ 0
+COL6
+Text HLabel 7400 1150 2    50   Input ~ 0
+COL7
+Text HLabel 8100 1150 2    50   Input ~ 0
+COL8
+Text HLabel 8800 1150 2    50   Input ~ 0
+COL9
+Text HLabel 9500 1150 2    50   Input ~ 0
+COL10
+Text HLabel 10200 1150 2    50   Input ~ 0
+COL11
+Text HLabel 10900 1150 2    50   Input ~ 0
+COL12
+Text HLabel 11600 1150 2    50   Input ~ 0
+COL13
+Text Notes 2200 3650 0    50   ~ 0
+1.5u Tab
+Text Notes 2100 5000 0    50   ~ 0
+1.75u Caps Lock
+Wire Wire Line
+	10000 5600 11400 5600
+Text Notes 11250 5000 0    50   ~ 0
+2.25u Enter
+Text Notes 2100 5700 0    50   ~ 0
+1.25u Caps Lock
+Wire Wire Line
+	3200 5200 3200 7900
+Wire Wire Line
+	2300 6950 3700 6950
+Text Notes 2100 6350 0    50   ~ 0
+2.25u LShift
+Text Notes 2100 7700 0    50   ~ 0
+1.25u LCtrl
+Text Notes 2850 7700 0    50   ~ 0
+1.25u LGui
+Text Notes 3600 7700 0    50   ~ 0
+1.25u LAlt
+Text Notes 2100 8400 0    50   ~ 0
+1.5u LCtrl
+$Comp
+L MX_Alps_Hybrid:MX-NoLED-FLIPPED MX67
+U 1 1 61249978
+P 2350 8650
+F 0 "MX67" H 2350 8850 60  0000 C CNN
+F 1 "MX-LED" H 2350 8800 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1.5U-Hotswap" H 1725 8625 60  0001 C CNN
+F 3 "" H 1725 8625 60  0001 C CNN
+	1    2350 8650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 8600 2500 7900
+Connection ~ 2500 7900
+Wire Wire Line
+	2300 8800 2100 8800
+Wire Wire Line
+	2100 8800 2100 8100
+Wire Wire Line
+	2100 8100 2300 8100
+Connection ~ 2300 8100
+Text Notes 2850 8400 0    50   ~ 0
+1u LGui
+$Comp
+L MX_Alps_Hybrid:MX-NoLED-FLIPPED MX68
+U 1 1 612551BC
+P 3050 8650
+F 0 "MX68" H 3050 8850 60  0000 C CNN
+F 1 "MX-LED" H 3050 8800 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1U-Hotswap" H 2425 8625 60  0001 C CNN
+F 3 "" H 2425 8625 60  0001 C CNN
+	1    3050 8650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 8600 3200 7900
+Connection ~ 3200 7900
+Wire Wire Line
+	3000 8100 2850 8100
+Wire Wire Line
+	2850 8100 2850 8800
+Wire Wire Line
+	2850 8800 3000 8800
+Connection ~ 3000 8100
+Text Notes 3600 8400 0    50   ~ 0
+1.5u LAlt
+$Comp
+L MX_Alps_Hybrid:MX-NoLED-FLIPPED MX69
+U 1 1 6126171E
+P 3750 8650
+F 0 "MX69" H 3750 8850 60  0000 C CNN
+F 1 "MX-LED" H 3750 8800 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1.5U-Hotswap" H 3125 8625 60  0001 C CNN
+F 3 "" H 3125 8625 60  0001 C CNN
+	1    3750 8650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 8600 3900 7900
+Connection ~ 3900 7900
+Wire Wire Line
+	3700 8100 3600 8100
+Wire Wire Line
+	3600 8100 3600 8800
+Wire Wire Line
+	3600 8800 3700 8800
+Connection ~ 3700 8100
+Connection ~ 2300 5400
+Wire Wire Line
+	2050 5400 2300 5400
+Wire Wire Line
+	2050 6100 2050 5400
+Wire Wire Line
+	2300 6100 2050 6100
+Wire Wire Line
+	2500 5900 2500 6550
+Wire Wire Line
+	2500 5200 2500 5900
+Connection ~ 2500 5900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX44
+U 1 1 61228700
+P 2350 5950
+F 0 "MX44" H 2350 6150 60  0000 C CNN
+F 1 "MX-LED" H 2350 6100 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1.25U-Hotswap" H 1725 5925 60  0001 C CNN
+F 3 "" H 1725 5925 60  0001 C CNN
+	1    2350 5950
+	1    0    0    -1  
+$EndComp
+Text HLabel 12300 1150 2    50   Input ~ 0
+COL14
+Wire Wire Line
+	10200 5200 10200 6550
+Wire Wire Line
+	9500 5200 9500 6550
+Wire Wire Line
+	3700 8300 3000 8300
+Wire Wire Line
+	6700 5200 6700 6550
+Connection ~ 7400 6550
+Connection ~ 7200 8100
+Wire Wire Line
+	7050 8800 7200 8800
+Wire Wire Line
+	7050 8100 7050 8800
+Wire Wire Line
+	7200 8100 7050 8100
+Connection ~ 7400 7900
+Wire Wire Line
+	7400 8600 7400 7900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX70
+U 1 1 6126E79E
+P 7250 8650
+F 0 "MX70" H 7250 8850 60  0000 C CNN
+F 1 "MX-LED" H 7250 8800 20  0000 C CNN
+F 2 "MX_HS:MXOnly-7U-Hotswap" H 6625 8625 60  0001 C CNN
+F 3 "" H 6625 8625 60  0001 C CNN
+	1    7250 8650
+	1    0    0    -1  
+$EndComp
+Text Notes 7050 8400 0    50   ~ 0
+7u Space
+Text Notes 7050 7700 0    50   ~ 0
+6.25u Space
+Wire Wire Line
+	7400 6550 7400 7900
+$Comp
+L Device:D_Small D59
+U 1 1 611EC208
+P 7200 8200
+F 0 "D59" V 7246 8132 50  0000 R CNN
+F 1 "1N4148" V 7155 8132 50  0000 R CNN
+F 2 "random-keyboard-parts:D_SOD-123-Pretty" V 7200 8200 50  0001 C CNN
+F 3 "~" V 7200 8200 50  0001 C CNN
+	1    7200 8200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED-FLIPPED MX62
+U 1 1 611EC1FC
+P 7250 7950
+F 0 "MX62" H 7250 8150 60  0000 C CNN
+F 1 "MX-LED" H 7250 8100 20  0000 C CNN
+F 2 "MX_HS:MXOnly-6.25U-Hotswap-ReversedStabilizers" H 6625 7925 60  0001 C CNN
+F 3 "" H 6625 7925 60  0001 C CNN
+	1    7250 7950
+	1    0    0    -1  
+$EndComp
+Connection ~ 3700 8300
+Wire Wire Line
+	3700 8300 7200 8300
+Wire Wire Line
+	12300 8600 12300 7900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX73
+U 1 1 612994EC
+P 12150 8650
+F 0 "MX73" H 12150 8850 60  0000 C CNN
+F 1 "MX-LED" H 12150 8800 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1.5U-Hotswap" H 11525 8625 60  0001 C CNN
+F 3 "" H 11525 8625 60  0001 C CNN
+	1    12150 8650
+	1    0    0    -1  
+$EndComp
+Text Notes 12000 8400 0    50   ~ 0
+1.5u RCtrl
+Connection ~ 11400 8100
+Wire Wire Line
+	11300 8800 11400 8800
+Wire Wire Line
+	11300 8100 11300 8800
+Wire Wire Line
+	11400 8100 11300 8100
+Wire Wire Line
+	11600 8600 11600 7900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX72
+U 1 1 6128A7C2
+P 11450 8650
+F 0 "MX72" H 11450 8850 60  0000 C CNN
+F 1 "MX-LED" H 11450 8800 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1U-Hotswap" H 10825 8625 60  0001 C CNN
+F 3 "" H 10825 8625 60  0001 C CNN
+	1    11450 8650
+	1    0    0    -1  
+$EndComp
+Text Notes 11300 8400 0    50   ~ 0
+1u RGui
+Connection ~ 10000 8100
+Wire Wire Line
+	9900 8800 10000 8800
+Wire Wire Line
+	9900 8100 9900 8800
+Wire Wire Line
+	10000 8100 9900 8100
+Wire Wire Line
+	10200 8600 10200 7900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX71
+U 1 1 6127C360
+P 10050 8650
+F 0 "MX71" H 10050 8850 60  0000 C CNN
+F 1 "MX-LED" H 10050 8800 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1.5U-Hotswap" H 9425 8625 60  0001 C CNN
+F 3 "" H 9425 8625 60  0001 C CNN
+	1    10050 8650
+	1    0    0    -1  
+$EndComp
+Text Notes 9900 8400 0    50   ~ 0
+1.5u RAlt
+Text Notes 9200 7700 0    50   ~ 0
+1.25u RAlt
+Text Notes 9900 7700 0    50   ~ 0
+1.25u RGui
+Text Notes 11300 7700 0    50   ~ 0
+1.25u RApp
+Text Notes 12000 7700 0    50   ~ 0
+1.25u RCtrl
+Wire Wire Line
+	12100 8300 11400 8300
+$Comp
+L Device:D_Small D63
+U 1 1 611EC270
+P 12100 8200
+F 0 "D63" V 12146 8132 50  0000 R CNN
+F 1 "1N4148" V 12055 8132 50  0000 R CNN
+F 2 "random-keyboard-parts:D_SOD-123-Pretty" V 12100 8200 50  0001 C CNN
+F 3 "~" V 12100 8200 50  0001 C CNN
+	1    12100 8200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED-FLIPPED MX66
+U 1 1 611EC26A
+P 12150 7950
+F 0 "MX66" H 12150 8150 60  0000 C CNN
+F 1 "MX-LED" H 12150 8100 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1.25U-Hotswap" H 11525 7925 60  0001 C CNN
+F 3 "" H 11525 7925 60  0001 C CNN
+	1    12150 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D62
+U 1 1 611EC25F
+P 11400 8200
+F 0 "D62" V 11446 8132 50  0000 R CNN
+F 1 "1N4148" V 11355 8132 50  0000 R CNN
+F 2 "random-keyboard-parts:D_SOD-123-Pretty" V 11400 8200 50  0001 C CNN
+F 3 "~" V 11400 8200 50  0001 C CNN
+	1    11400 8200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D61
+U 1 1 611EC259
+P 10000 8200
+F 0 "D61" V 10046 8132 50  0000 R CNN
+F 1 "1N4148" V 9955 8132 50  0000 R CNN
+F 2 "random-keyboard-parts:D_SOD-123-Pretty" V 10000 8200 50  0001 C CNN
+F 3 "~" V 10000 8200 50  0001 C CNN
+	1    10000 8200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED-FLIPPED MX65
+U 1 1 611EC253
+P 11450 7950
+F 0 "MX65" H 11450 8150 60  0000 C CNN
+F 1 "MX-LED" H 11450 8100 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1.25U-Hotswap" H 10825 7925 60  0001 C CNN
+F 3 "" H 10825 7925 60  0001 C CNN
+	1    11450 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED-FLIPPED MX64
+U 1 1 611EC24D
+P 10050 7950
+F 0 "MX64" H 10050 8150 60  0000 C CNN
+F 1 "MX-LED" H 10050 8100 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1.25U-Hotswap" H 9425 7925 60  0001 C CNN
+F 3 "" H 9425 7925 60  0001 C CNN
+	1    10050 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D60
+U 1 1 611EC242
+P 9300 8200
+F 0 "D60" V 9346 8132 50  0000 R CNN
+F 1 "1N4148" V 9255 8132 50  0000 R CNN
+F 2 "random-keyboard-parts:D_SOD-123-Pretty" V 9300 8200 50  0001 C CNN
+F 3 "~" V 9300 8200 50  0001 C CNN
+	1    9300 8200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX63
+U 1 1 611EC236
+P 9350 7950
+F 0 "MX63" H 9350 8150 60  0000 C CNN
+F 1 "MX-LED" H 9350 8100 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1.25U-Hotswap" H 8725 7925 60  0001 C CNN
+F 3 "" H 8725 7925 60  0001 C CNN
+	1    9350 7950
+	1    0    0    -1  
+$EndComp
+Connection ~ 12300 7900
+Connection ~ 11400 2900
+Wire Wire Line
+	12100 2900 11400 2900
+$Comp
+L Device:D_Small D15
+U 1 1 611BA898
+P 12100 2800
+F 0 "D15" V 12146 2732 50  0000 R CNN
+F 1 "1N4148" V 12055 2732 50  0000 R CNN
+F 2 "random-keyboard-parts:D_SOD-123-Pretty" V 12100 2800 50  0001 C CNN
+F 3 "~" V 12100 2800 50  0001 C CNN
+	1    12100 2800
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7200 8300
+Wire Wire Line
+	7200 8300 9300 8300
+Wire Wire Line
+	9500 6550 9500 7900
+Wire Wire Line
+	11400 7450 11200 7450
+Connection ~ 11600 3200
+Connection ~ 12300 6550
+Connection ~ 12300 3850
+Wire Wire Line
+	12300 3850 12300 6550
+Wire Wire Line
+	12300 6550 12300 7900
+Connection ~ 11400 6750
+Wire Wire Line
+	11200 6750 11400 6750
+Wire Wire Line
+	11200 7450 11200 6750
+$Comp
+L MX_Alps_Hybrid:MX-NoLED-FLIPPED MX58
+U 1 1 612325AD
+P 11450 7300
+F 0 "MX58" H 11450 7500 60  0000 C CNN
+F 1 "MX-LED" H 11450 7450 20  0000 C CNN
+F 2 "MX_HS:MXOnly-2.75U-Hotswap" H 10825 7275 60  0001 C CNN
+F 3 "" H 10825 7275 60  0001 C CNN
+	1    11450 7300
+	1    0    0    -1  
+$EndComp
+Text Notes 11250 7050 0    50   ~ 0
+2.75u RShift
+Text Notes 11250 6350 0    50   ~ 0
+1.75u RShift
+Wire Wire Line
+	11600 6550 11600 7250
+Wire Wire Line
+	12100 6950 11400 6950
+$Comp
+L Device:D_Small D55
+U 1 1 611E0DFA
+P 12100 6850
+F 0 "D55" V 12146 6782 50  0000 R CNN
+F 1 "1N4148" V 12055 6782 50  0000 R CNN
+F 2 "random-keyboard-parts:D_SOD-123-Pretty" V 12100 6850 50  0001 C CNN
+F 3 "~" V 12100 6850 50  0001 C CNN
+	1    12100 6850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX57
+U 1 1 611E0DF4
+P 12150 6600
+F 0 "MX57" H 12150 6800 60  0000 C CNN
+F 1 "MX-LED" H 12150 6750 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1U-Hotswap" H 11525 6575 60  0001 C CNN
+F 3 "" H 11525 6575 60  0001 C CNN
+	1    12150 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D54
+U 1 1 611E0DE9
+P 11400 6850
+F 0 "D54" V 11446 6782 50  0000 R CNN
+F 1 "1N4148" V 11355 6782 50  0000 R CNN
+F 2 "random-keyboard-parts:D_SOD-123-Pretty" V 11400 6850 50  0001 C CNN
+F 3 "~" V 11400 6850 50  0001 C CNN
+	1    11400 6850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED-FLIPPED MX56
+U 1 1 611E0DDD
+P 11450 6600
+F 0 "MX56" H 11450 6800 60  0000 C CNN
+F 1 "MX-LED" H 11450 6750 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1.75U-Hotswap" H 10825 6575 60  0001 C CNN
+F 3 "" H 10825 6575 60  0001 C CNN
+	1    11450 6600
+	1    0    0    -1  
+$EndComp
+Connection ~ 11600 7900
+Connection ~ 11600 7250
+Wire Wire Line
+	11600 7250 11600 7900
+Connection ~ 11600 6550
+Connection ~ 11600 5200
+Wire Wire Line
+	11600 5200 11600 6550
+Connection ~ 11400 6950
+Connection ~ 10000 6950
+Wire Wire Line
+	10000 6950 11400 6950
+Wire Wire Line
+	10700 4250 12100 4250
+$Comp
+L Device:D_Small D29
+U 1 1 611D02EC
+P 12100 4150
+F 0 "D29" V 12146 4082 50  0000 R CNN
+F 1 "1N4148" V 12055 4082 50  0000 R CNN
+F 2 "random-keyboard-parts:D_SOD-123-Pretty" V 12100 4150 50  0001 C CNN
+F 3 "~" V 12100 4150 50  0001 C CNN
+	1    12100 4150
+	0    -1   -1   0   
+$EndComp
+Text Notes 12000 3650 0    50   ~ 0
+1.5u Backslash
+Wire Wire Line
+	11600 3200 11600 5200
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX30
+U 1 1 611D02E6
+P 12150 3900
+F 0 "MX30" H 12150 4100 60  0000 C CNN
+F 1 "MX-LED" H 12150 4050 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1.5U-Hotswap" H 11525 3875 60  0001 C CNN
+F 3 "" H 11525 3875 60  0001 C CNN
+	1    12150 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11400 3400 11250 3400
+Wire Wire Line
+	11250 2700 11400 2700
+Text Notes 11300 3000 0    50   ~ 0
+2u Backspace
+Text Notes 12000 2300 0    50   ~ 0
+Split BS
+Text Notes 11300 2300 0    50   ~ 0
+Split BS
+Wire Wire Line
+	11250 3400 11250 2700
+$Comp
+L MX_Alps_Hybrid:MX-NoLED-FLIPPED MX16
+U 1 1 6121FB71
+P 11450 3250
+F 0 "MX16" H 11450 3450 60  0000 C CNN
+F 1 "MX-LED" H 11450 3400 20  0000 C CNN
+F 2 "MX_HS:MXOnly-2U-Hotswap" H 10825 3225 60  0001 C CNN
+F 3 "" H 10825 3225 60  0001 C CNN
+	1    11450 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12300 2500 12300 3850
+Wire Wire Line
+	12300 1150 12300 2500
+Connection ~ 12300 2500
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX15
+U 1 1 611BA88C
+P 12150 2550
+F 0 "MX15" H 12150 2750 60  0000 C CNN
+F 1 "MX-LED" H 12150 2700 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1U-Hotswap" H 11525 2525 60  0001 C CNN
+F 3 "" H 11525 2525 60  0001 C CNN
+	1    12150 2550
+	1    0    0    -1  
+$EndComp
+Connection ~ 11400 2700
+Wire Wire Line
+	11600 2500 11600 3200
+Wire Wire Line
+	11600 1150 11600 2500
+Connection ~ 11600 2500
+$Comp
+L MX_Alps_Hybrid:MX-NoLED-FLIPPED MX14
+U 1 1 611B95C6
+P 11450 2550
+F 0 "MX14" H 11450 2750 60  0000 C CNN
+F 1 "MX-LED" H 11450 2700 20  0000 C CNN
+F 2 "MX_HS:MXOnly-1U-Hotswap" H 10825 2525 60  0001 C CNN
+F 3 "" H 10825 2525 60  0001 C CNN
+	1    11450 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12100 8100 12000 8100
+Wire Wire Line
+	12000 8100 12000 8800
+Wire Wire Line
+	12000 8800 12100 8800
+Connection ~ 12100 8100
+Connection ~ 9500 6550
+Connection ~ 10200 7900
+Wire Wire Line
+	10200 6550 10200 7900
+Connection ~ 10200 6550
+Wire Wire Line
+	9300 8300 10000 8300
+Connection ~ 9300 8300
+Connection ~ 10000 8300
+Wire Wire Line
+	10000 8300 11400 8300
+Connection ~ 11400 8300
+$EndSCHEMATC
